@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: black;
+}
+main {
+    
+}
+.mylist{
+    display: flex;
+    flex-direction: column;
+    color:aliceblue;
+    background-image: url('images/banana-banana-bread.jpeg');
+    
+}
+.popular{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:aliceblue
+
+}
+.trending{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:aliceblue
+
+}
+.navbar{
+    display: flex;
+    margin-left: 0px;
+}
+.search{
+    display: flex;
+    
+}
+.image{
+    display: flex;
+}
+li{
+    color:aliceblue;
+    list-style: none;
+    font-weight: 500;
+    float: left;
+    padding:10px;
+}
+.imgholder{
+    width: 200px;
+}
+.imgrow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    width: calc(100% - 40px); /* Set the width of the container, accounting for padding */
+    margin: 0 auto; /* Center the container */
+}
+
+.imgrow::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+.leftSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+  }
+li  {
+    transition: filter 0.3s ease; /* Add transition for smooth effect */
+}
+li  :hover{
+    filter: brightness(150%); /* Adjust the percentage to increase brightness */
+}
